@@ -6,13 +6,13 @@ export interface InputProps {
 
 type InputPrefixProps = ComponentProps<'div'>
 
-export function InputPrefix(props: InputPrefixProps) {
+export function Prefix(props: InputPrefixProps) {
   return <div {...props} />
 }
 
 type InputControlProps = ComponentProps<'input'>
 
-export function InputControl(props: InputControlProps) {
+export function Control(props: InputControlProps) {
   return (
     <input
       {...props}
@@ -23,7 +23,7 @@ export function InputControl(props: InputControlProps) {
 
 export type InputRootProps = ComponentProps<'div'>
 
-export function InputRoot(props: InputRootProps) {
+export function Root(props: InputRootProps) {
   return (
     <div
       {...props}
